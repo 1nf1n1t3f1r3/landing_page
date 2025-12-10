@@ -1,4 +1,52 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+
+}
+
+.header, .introduction {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        flex-shrink: 0;
+}
+
+.header .right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 18px;
+    color: #EFE7EB;
+    flex-shrink: 0;
+
+}
+
+.introduction .container{
+    display: flex; 
+    flex-direction: row;
+
+}
+
+button {
+  border: none;
+  border-radius: 16px;
+  background: #3882F6;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 35px;
+
+}
+
+.container {
+    max-width: 65rem;      /* or 60rem, or whatever you prefer */
+    margin: 0 auto;       /* center it */
+    padding: 0 2rem;      /* left/right breathing room */
 }
