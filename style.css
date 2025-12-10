@@ -3,13 +3,23 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     margin: 0 auto;
+    min-height: 100vh;
+    height: 100vh;
 
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 
 .container {
     max-width: 65rem;      /* or 60rem, or whatever you prefer */
     margin: 0 auto;       /* center it */
     padding: 0 2rem;      /* left/right breathing room */
+    
 }
 
 .header, .introduction {
@@ -37,7 +47,24 @@ body {
 .introduction .container{
     display: flex; 
     flex-direction: row;
+    justify-content: space-between;
 
+
+}
+
+.container .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50vh;
+}
+
+.introduction img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 25px;
+ 
 }
 
 button {
