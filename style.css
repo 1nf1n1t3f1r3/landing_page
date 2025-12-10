@@ -32,6 +32,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
+
 }
 
 .header .right {
@@ -48,6 +49,7 @@ body {
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
+        flex-wrap: wrap;
 
 
 }
@@ -56,7 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 45%;
+    width: 50%;
     max-width: 50%;
 }
 
@@ -86,6 +88,8 @@ body {
     font-weight: 100;
     color: gray;
 
+    flex-wrap: wrap;
+
 }
 
 .card{
@@ -93,6 +97,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-basis: 20%;
 }
 
 
