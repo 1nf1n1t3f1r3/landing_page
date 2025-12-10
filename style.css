@@ -6,6 +6,12 @@ body {
 
 }
 
+.container {
+    max-width: 65rem;      /* or 60rem, or whatever you prefer */
+    margin: 0 auto;       /* center it */
+    padding: 0 2rem;      /* left/right breathing room */
+}
+
 .header, .introduction {
     background-color: #1F2937;
     color: white;
@@ -24,7 +30,7 @@ body {
     align-items: center;
     font-size: 18px;
     color: #EFE7EB;
-    flex-shrink: 0;
+
 
 }
 
@@ -42,11 +48,20 @@ button {
   font-weight: bold;
   width: 150px;
   height: 35px;
+  margin: 15px;
 
 }
 
-.container {
-    max-width: 65rem;      /* or 60rem, or whatever you prefer */
-    margin: 0 auto;       /* center it */
-    padding: 0 2rem;      /* left/right breathing room */
+
+
+
+.footer {
+
+    background-color: #1F2937;
+    color: white;
+}
+
+.footer .container p{
+    display: flex;
+    justify-content: center;
 }
